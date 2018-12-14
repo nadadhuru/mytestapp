@@ -34,7 +34,7 @@
   <distributionManagement>
     <repository>
         <id>internal</id>
-        <url>file://C:/Dev/Jenkins/workspace/mytestapp/vm.warproject/target/mvn-repo</url>
+        <url>file://C:/Dev/Jenkins/workspace/mytestapp/mytestapp/target</url>
     </repository>
 </distributionManagement>
 </project>
