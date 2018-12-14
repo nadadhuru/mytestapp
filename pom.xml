@@ -11,6 +11,9 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>   
 </properties>
 
+  <build>
+    <finalName>mytestapp</finalName>
+  </build>
 
   <distributionManagement>
         <repository>
