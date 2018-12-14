@@ -15,12 +15,9 @@
 			<version>2.6</version>
 			<configuration>
 				<failOnMissingWebXml>false</failOnMissingWebXml>
-				<includes>
-            				<include>**/mytestapp/*</include>
-          			</includes>
-			</configuration>
+				<warSourceIncludes>*.xsd, *.xml, *.xsl, *.txt, *.properties, META-INF/., WEB-INF/web.xml</warSourceIncludes> 
+     			</configuration>
 		</plugin>
-		
 	</plugins>
   </build>	
   <dependencies>
