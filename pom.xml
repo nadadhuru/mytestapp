@@ -7,11 +7,15 @@
   <version>1.0</version>
   <packaging>war</packaging>
 
-  <name>mywebapp</name>
-  <url>http://maven.apache.org</url>
+<properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+</properties>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-    
+
+  <distributionManagement>
+        <repository>
+            <id>internal</id>
+            <url>file://C:/dev/Jenkins/workspace/mytestapp</url>
+        </repository>
+</distributionManagement>
 </project>
