@@ -4,7 +4,7 @@
   <groupId>learn.tomcat</groupId>
   <artifactId>mytestapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>mytestapp</name>
   <url>http://maven.apache.org</url>
     <build>
